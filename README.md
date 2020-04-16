@@ -4,36 +4,36 @@ Demo with Argo CD
 Need Kubernates installed
 
 ### Install Argo
-# Mac
+### Mac
 Available via brew
 
 brew install argoproj/tap/argo
 And via curl
 
-# Download the binary
+### Download the binary
 curl -sLO https://github.com/argoproj/argo/releases/download/v2.6.4/argo-darwin-amd64
 
-# Make binary executable
+### Make binary executable
 chmod +x argo-darwin-amd64
 
-# Move binary to path
+### Move binary to path
 mv ./argo-darwin-amd64 /usr/local/bin/argo
 
-# Test installation
+### Test installation
 argo version
 # Linux
 Available via curl
 
-# Download the binary
+### Download the binary
 curl -sLO https://github.com/argoproj/argo/releases/download/v2.6.4/argo-linux-amd64
 
-# Make binary executable
+### Make binary executable
 chmod +x argo-linux-amd64
 
-# Move binary to path
+### Move binary to path
 mv ./argo-linux-amd64 /usr/local/bin/argo
 
-# Test installation
+### Test installation
 argo version
 Argo Controller
 kubectl create namespace argo
